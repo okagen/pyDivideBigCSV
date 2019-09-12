@@ -6,5 +6,16 @@ Divide a big CSV file into 2 or more files. / CSVファイルを2つ以上に分
 
 ## Usase.
   1. Specify the source CSV file to be divided. / 分割元のCSVファイルを指定する。
-  1. Specify the number of file division. / ファイルの分割数を指定する。
-  1. The divided CSV files are generated in the directory where the source CSV file is stored. / 分割元のCSVファイルが保存されているディレクトリに、分割されたCSVファイルが生成される。
+  ~~~
+  csv_dir = ".\\Data\\"
+  csv_name = "Sample.csv"
+  ~~~
+  
+  2. Specify the number of file division. / ファイルの分割数を指定する。
+  ~~~
+  divCount = 3
+  ~~~
+ 
+  3. The divided CSV files are generated in the directory where the source CSV file is stored. / 分割元のCSVファイルが保存されているディレクトリに、分割されたCSVファイルが生成される。
+  
+  
