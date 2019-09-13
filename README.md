@@ -16,7 +16,7 @@ Divide a big CSV file into 2 or more files. / CSVファイルを2つ以上に分
   divCount = 3
   ~~~
  
-  3. The divided CSV files are generated in the directory where the source CSV file is stored. / 分割元のCSVファイルが保存されているディレクトリに、分割されたCSVファイルが生成される。
+  3. The divided CSV files are generated in the directory where the source CSV file is stored. The number of divisions and the number of first and last lines are added to the file name. / 分割元のCSVファイルが保存されているディレクトリに、分割されたCSVファイルが生成される。分割数と最初と最後の行の数がファイル名に付加される。
   <img src="https://github.com/okagen/pyDivideBigCSV/blob/master/Data/02.png" width="300">
 
   
